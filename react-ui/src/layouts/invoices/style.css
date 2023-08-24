@@ -1,0 +1,53 @@
+.invoice-content-table {
+    width: 100%;
+    margin-top: 48px;
+    /* border-top: 3px solid #4f697a; */
+    border-collapse: collapse;
+}
+.invoice-content-table thead tr {
+    text-align: right;
+    font-size: 14px;
+    /* color: #4f697a; */
+}
+.invoice-content-table thead tr th:first-child {
+    width: 40%;
+    text-align: left;
+}
+.invoice-content-table thead tr th {
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.invoice-content-table tbody tr {
+    border-bottom: 1px solid #ccd1d9;
+}
+
+/* WebKit, Edge */
+textarea::-webkit-input-placeholder {
+    color: #344767 !important;
+    opacity: 0.42;
+}
+/* Firefox 4-18 */
+textarea:-moz-placeholder {
+    color: #344767 !important;
+    opacity: 0.42;
+}
+/* Firefox 19+ */
+textarea::-moz-placeholder {
+    color: #344767 !important;
+    opacity: 0.42;
+}
+/* IE 10-11 */
+textarea:-ms-input-placeholder {
+    color: #344767 !important;
+    opacity: 0.42;
+}
+/* Edge */
+textarea::-ms-input-placeholder {
+    color: #344767 !important;
+    opacity: 0.42;
+}
+/* MODERN BROWSER */
+textarea::placeholder {
+    color: #344767 !important;
+    opacity: 0.42;
+}
